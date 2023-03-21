@@ -21,6 +21,17 @@ Crafted with love and care to provide the best experience possible.
 
 ---
 
+## Docker Compose
+
+```
+version: "3.9"
+services:
+  web:
+    image: itsnoted/chatpad:0.1
+    ports:
+      - "80:80"
+```
+
 ## Give Feedback
 
 If you have any feature requests or bug reports, go to [feedback.chatpad.ai](https://feedback.chatpad.ai).
