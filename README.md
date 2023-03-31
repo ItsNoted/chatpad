@@ -27,7 +27,7 @@ Crafted with love and care to provide the best experience possible.
 version: "3.9"
 services:
   web:
-    image: itsnoted/chatpad:0.1
+    image: itsnoted/chatpad:latest
     ports:
       - "80:80"
 ```
